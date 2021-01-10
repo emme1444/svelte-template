@@ -8,9 +8,6 @@ import css from "rollup-plugin-css-only";
 const build = !process.env.ROLLUP_WATCH;
 const production = process.env.NODE_ENV === "production";
 const dev = !production && !build;
-console.log(build);
-console.log(production);
-console.log(dev);
 
 function serve() {
   let server;
